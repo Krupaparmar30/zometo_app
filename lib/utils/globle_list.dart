@@ -613,7 +613,7 @@ List productDetail=[
     "km":12.0,
     "openTime":'10:00 AM',                                      //AM/PM
     "type":'shake-chocoholics dream',                                      //small character
-    "closeTime":'=10:00 PM',
+    "closeTime":'10:00 PM',
     "rating":4.7,
     "ratingPerson":620,                                      //1-1000
     "Time":'10 min',                                      //15-60 min / 1 to 2 hour
