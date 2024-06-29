@@ -64,6 +64,17 @@ List offerList=[
     "img4":"assets/imageoffer/k5.png",
 
 
-  }
+  },
+  {
+    "offername":"Rain Spacial",
+    "offer":50,
+    "offerpername":"Flat 30% OFF",
+    "tag":"Welcome guys\nRain with our Sweet\nand hot Tasty dishes...",
+    "img":"assets/imageoffer/rabbdi.png",
+    "img2":"assets/imageoffer/k11.png",
+    "img3":"assets/imageoffer/k4.png",
+    "img4":"assets/imageoffer/k18.png",
+
+  },
 ];
 

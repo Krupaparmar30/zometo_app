@@ -12,6 +12,8 @@ class offerPage extends StatefulWidget {
 class _offerPageState extends State<offerPage> {
   @override
   Widget build(BuildContext context) {
+    double height = MediaQuery.of(context).size.height;
+    double width = MediaQuery.of(context).size.width;
     return Scaffold(
       body:SingleChildScrollView(
         scrollDirection: Axis.horizontal,
@@ -26,8 +28,8 @@ class _offerPageState extends State<offerPage> {
               child: Stack(
                 children: [
                   Container(
-                    height: 180,
-                    width: 345,
+                    height: height*0.235,
+                    width: width*0.95,
                     decoration: BoxDecoration(
                         color: Colors.white10,
                         borderRadius: BorderRadius.circular(20),
@@ -43,8 +45,8 @@ class _offerPageState extends State<offerPage> {
                   Row(
                     children: [
                       Container(
-                        height: 180,
-                        width: 180,
+                        height: height*0.238,
+                        width: width*0.5,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.only(topLeft: Radius.circular(20),bottomLeft: Radius.circular(20)),
                             color: Colors.white
@@ -82,8 +84,8 @@ class _offerPageState extends State<offerPage> {
                       Stack(
                         children: [
                           Container(
-                            height: 180,
-                            width: 164,
+                            height: height*0.238,
+                            width: width*0.45,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
@@ -93,8 +95,8 @@ class _offerPageState extends State<offerPage> {
                           Padding(
                             padding: const EdgeInsets.only(left: 60),
                             child: Container(
-                              height: 89,
-                              width: 100,
+                              height: height*0.1,
+                              width: width*0.279,
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
@@ -111,8 +113,8 @@ class _offerPageState extends State<offerPage> {
 
                           ),
                           Container(
-                            height: 60,
-                            width: 60,
+                            height: height*0.080,
+                            width: width*0.150,
                             decoration: BoxDecoration(
                                 color: Colors.white,
                                 borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
@@ -131,8 +133,8 @@ class _offerPageState extends State<offerPage> {
                           Padding(
                             padding: const EdgeInsets.only(top: 60,),
                             child: Container(
-                              height: 60,
-                              width: 80,
+                              height: height*0.080,
+                              width: width*0.180,
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
@@ -152,8 +154,8 @@ class _offerPageState extends State<offerPage> {
                             padding: const EdgeInsets.only(top: 80,left:80),
 
                             child: Container(
-                              height: 80,
-                              width: 80,
+                              height: height*0.090,
+                              width: width*0.2,
                               decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20)),
